@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.egg-info/
+
+# Large data files
+*.ine
+*_rays.txt
+*_rays_fixed.txt
+all_rays_combined.txt
+
+# Logs
+*.log
+*_output.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Large constraint files (keep these out of git)
+/n6data/n6_correct_s7_expansion.ine
+/n6data/n6_restart_startingcobasis.ine
+
+# But keep the important small result files
+!truly_new_rays_final.txt
+!all_unique_rays_final.txt
+!all_unique_rays_integer.txt
+!extended_unique_rays.txt
