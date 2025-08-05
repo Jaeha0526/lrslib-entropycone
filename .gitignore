@@ -39,3 +39,5 @@ autom4te.cache
 /mplrs/Makefile.in
 /mplrs/mplrs
 /mplrs/mplrs1
+n6data/n6_correct_s7_expansion.ine
+n6data/n6_restart_startingcobasis.ine

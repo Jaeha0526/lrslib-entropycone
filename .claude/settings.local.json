@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nvidia-smi:*)",
+      "Bash(python:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(sed:*)",
+      "Bash(grep:*)",
+      "Bash(awk:*)",
+      "Bash(timeout 20 python:*)",
+      "Bash(timeout 60 python thorough_s7_check.py)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(timeout:*)",
+      "Bash(ps:*)",
+      "Bash(cat:*)",
+      "Bash(echo:*)",
+      "Bash(kill:*)",
+      "Bash(git add:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": []
+  }
+}
