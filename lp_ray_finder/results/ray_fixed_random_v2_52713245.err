@@ -1,0 +1,2 @@
+ls: cannot access 'core/': No such file or directory
+python: can't open file '/var/spool/slurmd/job52713245/core/ray_finder_random_violations_fixed.py': [Errno 2] No such file or directory

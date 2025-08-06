@@ -3,8 +3,29 @@
 
 **Original Date:** July 13, 2025  
 **Major Update:** August 3, 2025 - **129 NEW RAYS DISCOVERED!**  
+**Latest Update:** August 5, 2025 - **27 MORE NEW RAYS DISCOVERED!**  
 **Objective:** Find additional ray orbit representatives using S₇-expanded facet constraints  
 **Methods:** Multiple computational approaches culminating in successful LP-based discovery  
+
+---
+
+## 🎊 LATEST UPDATE: August 5, 2025
+
+### Additional 27 New Rays Discovered
+Using the correct S₇ expansion with proper non-negativity bounds (x ≥ 0), we discovered **27 more new extreme rays** (26 truly new, 1 duplicate of known rays).
+
+### Current Ray Discovery Locations
+- **129 rays from Aug 3**: `/resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/n6data/truly_new_rays_final.txt`
+- **27 rays from Aug 5**: `/resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/ray_results_20250805_123122_job52711029/discovered_rays.txt`
+- **New rays (ongoing)**: `/resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/ray_results_enhanced/discovered_rays.txt`
+
+### Enhanced Tracking System (Aug 5)
+New enhanced version tracks for every attempt:
+- Success/failure and iteration count
+- Whether failures hit 100 iteration limit
+- Duplicates against both session AND 4,145 known rays
+- How many times each ray gets rediscovered
+- Detailed logs in `ray_results_enhanced/attempt_log.jsonl`
 
 ---
 
@@ -13,27 +34,30 @@
 ### Breakthrough Discovery
 Through extensive LP-based search campaigns with GPU acceleration, we have successfully discovered **129 new extreme rays** for the N=6 holographic entropy cone!
 
-### Final Verified Results
+### Final Verified Results (as of Aug 5)
 - **Previously known**: 4,155 orbit representatives (note: file had 4,145)
-- **New discoveries**: 129 orbit representatives  
-- **New total**: 4,284 orbit representatives
-- **Percentage increase**: 3.10%
+- **New discoveries Aug 3**: 129 orbit representatives  
+- **New discoveries Aug 5**: 26 unique new rays
+- **New total**: 4,310 orbit representatives
+- **Percentage increase**: 3.73%
 
 ### Successful Approach
 - **Method**: LP-based active-set algorithm with GPU-accelerated constraint checking
 - **Constraints**: Full S₇-expanded set (8,665,853 inequalities)
 - **Search campaigns**: Extended (5K), Mega (10K), Ultra (50K), Giga (100K)
-- **Total attempts**: ~16,000 LP optimizations
-- **Runtime**: ~24 hours across parallel searches
+- **Total attempts**: ~16,000 LP optimizations (Aug 3) + ~1,000 (Aug 5)
+- **Runtime**: ~24 hours (Aug 3) + ongoing (Aug 5)
 
 ### Verification Process
-1. **Raw rays found**: 9,553
-2. **After S₇ deduplication**: 133 unique orbits
-3. **After checking against known rays**: **129 truly new**
+1. **Raw rays found**: 9,553 (Aug 3) + 27 (Aug 5)
+2. **After S₇ deduplication**: 133 unique orbits (Aug 3)
+3. **After checking against known rays**: **129 truly new (Aug 3) + 26 truly new (Aug 5)**
 
 ### Key Files
-- `truly_new_rays_final.txt` - The 129 new rays
+- `truly_new_rays_final.txt` - The 129 new rays from Aug 3
 - `all_unique_rays_integer.txt` - Integer representations
+- `ray_results_20250805_123122_job52711029/discovered_rays.txt` - 27 rays from Aug 5
+- `ray_results_enhanced/` - Ongoing enhanced tracking with detailed statistics
 
 ---
 
@@ -131,16 +155,17 @@ The **failure to discover additional rays** using multiple sophisticated computa
 2. **Confirms computational barriers**: N=6 holographic entropy cone at practical computation limits  
 3. **Supports research use**: 4,145 representatives are sufficient for current scientific applications
 
-### Bottom Line - UPDATED August 3, 2025
-**The original assessment was INCORRECT!** Through more sophisticated LP-based methods, we successfully discovered 129 additional rays, proving that the dataset was NOT complete. The new total of 4,284 rays represents a 3.10% expansion of known extreme rays.
+### Bottom Line - UPDATED August 5, 2025
+**The original assessment was INCORRECT!** Through more sophisticated LP-based methods, we successfully discovered 155 additional rays (129 on Aug 3, 26 on Aug 5), proving that the dataset was NOT complete. The new total of 4,310 rays represents a 3.73% expansion of known extreme rays. More rays are likely being discovered as the enhanced tracking job continues.
 
 ---
 
-**Ray Discovery Status**: ✅ **SUCCESS** - 129 new rays discovered!  
-**Dataset Recommendation**: ✅ **USE UPDATED DATASET** - Now includes 4,284 total rays  
+**Ray Discovery Status**: ✅ **ONGOING SUCCESS** - 155 new rays discovered and counting!  
+**Dataset Recommendation**: ✅ **USE UPDATED DATASET** - Now includes 4,310+ total rays  
 **Achievement**: 🎊 **MAJOR DISCOVERY** - Largest single addition to the ray database  
 
 *Original Generated: July 13, 2025*  
 *Updated: August 3, 2025*  
-*Total Computational Time: ~26 hours*  
-*Successful Method: LP-based active-set algorithm with GPU acceleration*
+*Latest Update: August 5, 2025*  
+*Total Computational Time: ~27+ hours*  
+*Successful Method: LP-based active-set algorithm with GPU acceleration and enhanced tracking*

@@ -1,0 +1,1 @@
+"""S7 permutation verification tools"""

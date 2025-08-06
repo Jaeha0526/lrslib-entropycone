@@ -20,7 +20,17 @@
       "Bash(echo:*)",
       "Bash(kill:*)",
       "Bash(git add:*)",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(chmod:*)",
+      "Bash(sbatch:*)",
+      "Bash(squeue:*)",
+      "Bash(scancel:*)",
+      "Bash(rm:*)",
+      "Bash(ssh:*)",
+      "Bash(scontrol show:*)",
+      "Bash(mv:*)",
+      "Bash(sacct:*)",
+      "Bash(sinfo:*)"
     ],
     "deny": []
   }

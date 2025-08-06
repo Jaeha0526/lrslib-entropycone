@@ -885,3 +885,64 @@ From the ashes of the intractable vertex enumeration approach (despite our 200,0
 - Update performance benchmarks after real N=6 testing
 - Add more specific GPU configuration examples if needed
 - Ready for large-scale N=6 system deployment
+
+---
+
+## 2025-08-05 14:00 - S7 Permutation Verification and Random Implementation Bug Fix
+
+**What was attempted**: S7 verification of 155 newly discovered rays (129 from Aug 3 + 26 from Aug 5) and debugging of random violation selection saturation issue.
+
+**Implementation details**:
+- **S7 verification task**: Verify that 155 new rays are truly unique orbit representatives, not just S7 permutations of existing rays
+- **Random saturation problem**: Random violation selection showing identical behavior to greedy method (same ~20 rays rediscovered)
+- **Bug investigation**: Deep analysis of why random method wasn't escaping the 20-ray basin
+
+**S7 Verification Results**:
+- **Method used**: Most efficient S7 checking code found - `verify_no_s7_duplicates.py` with invariant signatures
+- **Key optimization**: S7-invariant properties (sorted absolute values, zero counts, value patterns) for quick filtering
+- **Results**: ✅ **All 155 rays have unique S7 signatures** - confirmed genuinely new orbit representatives
+- **Significance**: Total unique rays now **4300** (4145 original + 129 Aug 3 + 26 Aug 5)
+
+**Critical Bug Discovery in Random Implementation**:
+- **Root cause identified**: Random seed desynchronization between constraint selection and violation selection
+- **Technical issue**: 
+  - `np.random.randn(n)` used for objectives (NumPy random) ✅
+  - `random.sample()` used for initial constraint subset (Python random module) ❌
+  - **Same initial 1000 constraints selected every attempt** despite random objectives
+- **Impact**: Algorithm trapped in same constraint neighborhood, making random violation selection ineffective
+
+**Bug Fix Implementation**:
+- **Fixed version**: `ray_finder_random_violations_fixed.py` with synchronized random seeds
+- **Key changes**:
+  1. **Unified RNG**: Single `np.random.RandomState` for both initial subset and violation selection
+  2. **Per-attempt seeds**: `RandomState(attempt + timestamp)` ensures different starting points
+  3. **Replaced**: `random.sample()` → `rng.choice()` for consistent random behavior
+- **Expected outcome**: Truly different constraint neighborhoods per attempt, potential escape from 20-ray basin
+
+**Historical Context**:
+- **Discovery timeline**: 129 rays (Aug 3) + 26 rays (Aug 5) = 155 new rays over 2 days
+- **Algorithm evolution**: Greedy → Random (failed) → Fixed Random (testing)
+- **Saturation phenomenon**: Both greedy and broken random found ~20 rays then got stuck
+- **Hypothesis**: Fixed random should access different regions of 8.6M constraint space
+
+**Outcome**: TESTING IN PROGRESS
+
+**Current state**: 
+- **S7 verification**: ✅ Complete - all 155 rays confirmed unique orbit representatives
+- **Fixed random implementation**: 🔄 Job 52712889 submitted and running
+- **Total discovered**: 155 genuinely new extreme rays for N=6 holographic entropy cone
+- **Bug fix validation**: Awaiting results from fixed implementation
+
+**Technical significance**:
+- **Scale achievement**: Systematic discovery of new rays in 8.6M constraint system
+- **Verification rigor**: S7 permutation checking ensures no orbit duplicates
+- **Algorithm debugging**: Identified subtle random seed synchronization bug
+- **Implementation quality**: Fixed version should enable exploration of different constraint regions
+
+**Follow-up needed**: 
+- Monitor fixed random implementation for breakthrough beyond 20-ray limit
+- Compare ray discovery patterns between fixed and broken versions
+- Validate that new implementation finds rays from different constraint neighborhoods
+- Potential integration of successful random approach into production pipeline
+
+---

@@ -1,0 +1,11 @@
+Starting large subset ray finder with 10,000 initial constraints
+Time: Tue Aug  5 04:07:37 PM PDT 2025
+Job ID: 52714250
+Node: hpc-21-14
+🎯 LARGE SUBSET Ray Finder - Breaking Saturation
+Initial subset size: 10,000 constraints
+Using selection method: mixed
+Adding 30 violations per iteration
+Loaded 0 constraints
+Memory usage: 0.00 GB
+Job completed at: Tue Aug  5 04:07:46 PM PDT 2025

@@ -1,0 +1,22 @@
+Ray Discovery Summary - FIXED random method
+============================================================
+Runtime: 0:30:21.499405
+Attempts: 400
+Unique new rays: 21
+Session rays (including duplicates): 21
+
+Last 50 attempts:
+  Success rate: 50/50 = 100%
+  Hit max iterations: 0/50
+
+Most rediscovered rays:
+  session_14: found 26 times
+  session_2: found 24 times
+  session_9: found 24 times
+  session_8: found 23 times
+  session_6: found 22 times
+  session_18: found 22 times
+  session_3: found 20 times
+  session_7: found 19 times
+  session_11: found 19 times
+  session_17: found 18 times

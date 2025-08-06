@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/lp_ray_finder/core/ray_finder_large_subset.py", line 395, in <module>
+    main()
+  File "/resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/lp_ray_finder/core/ray_finder_large_subset.py", line 238, in main
+    m, n = constraints.shape
+ValueError: not enough values to unpack (expected 2, got 1)

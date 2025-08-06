@@ -1,0 +1,32 @@
+Session started: 2025-08-05 12:33:24.667741
+Constraints: 8,665,853 x 63
+Load time: 121.5s
+============================================================
+
+Ray 1: Attempt 1, Time=0:00:00.000020
+Ray 2: Attempt 2, Time=0:00:04.993690
+Ray 3: Attempt 4, Time=0:00:14.839919
+Ray 4: Attempt 5, Time=0:00:19.473060
+Ray 5: Attempt 6, Time=0:00:24.049504
+Ray 6: Attempt 7, Time=0:00:26.891571
+Ray 7: Attempt 8, Time=0:00:31.209606
+Ray 8: Attempt 12, Time=0:00:46.810051
+Ray 9: Attempt 13, Time=0:00:50.094861
+Ray 10: Attempt 14, Time=0:00:53.978365
+Ray 11: Attempt 15, Time=0:00:58.367315
+Ray 12: Attempt 21, Time=0:01:19.782049
+Ray 13: Attempt 25, Time=0:01:32.518998
+Ray 14: Attempt 30, Time=0:01:48.636417
+Ray 15: Attempt 31, Time=0:01:52.583778
+Ray 16: Attempt 33, Time=0:01:58.421573
+Ray 17: Attempt 35, Time=0:02:04.699956
+Ray 18: Attempt 42, Time=0:02:28.294560
+Ray 19: Attempt 44, Time=0:02:34.980780
+Ray 20: Attempt 46, Time=0:02:42.465964
+Ray 21: Attempt 48, Time=0:02:50.818049
+Ray 22: Attempt 193, Time=0:11:36.826853
+Ray 23: Attempt 197, Time=0:11:52.035058
+Ray 24: Attempt 373, Time=0:22:37.718664
+Ray 25: Attempt 396, Time=0:24:03.487305
+Ray 26: Attempt 439, Time=0:26:40.810703
+Ray 27: Attempt 943, Time=0:57:51.609203

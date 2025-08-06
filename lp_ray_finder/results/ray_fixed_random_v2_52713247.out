@@ -1,0 +1,9 @@
+Starting FIXED random ray finder (v2 - results in lp_ray_finder) at Tue Aug  5 03:03:53 PM PDT 2025
+Job ID: 52713247
+Output directory: lp_ray_finder/results/
+Key improvements:
+  - Results stored inside lp_ray_finder for future repo separation
+  - Relative paths for cross-platform compatibility
+  - Fixed random seed synchronization
+Working directory: /resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/lp_ray_finder
+Contents: 16 files in core/

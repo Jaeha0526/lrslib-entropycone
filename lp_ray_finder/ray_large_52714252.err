@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/lp_ray_finder/core/ray_finder_large_subset.py", line 400, in <module>
+    main()
+  File "/resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/lp_ray_finder/core/ray_finder_large_subset.py", line 296, in main
+    ray, iterations = find_ray_with_large_subset(
+  File "/resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/lp_ray_finder/core/ray_finder_large_subset.py", line 127, in find_ray_with_large_subset
+    active_constraints = constraints[active_indices]
+IndexError: arrays used as indices must be of integer (or boolean) type

@@ -1,0 +1,8 @@
+Starting MAXIMUM ENTROPY random ray finder (v3) at Tue Aug  5 03:29:11 PM PDT 2025
+Job ID: 52713644
+Key improvements:
+  - Microsecond precision timing for seed generation
+  - Multiple entropy sources: attempt + time + PID + hash
+  - Fixed pseudo-random cycling issue
+Working directory: /resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/lp_ray_finder
+Contents: 17 files in core/
