@@ -2,3 +2,2465 @@ Starting large subset ray finder with 10,000 initial constraints
 Time: Tue Aug  5 04:14:36 PM PDT 2025
 Job ID: 52714410
 Node: hpc-93-29
+🎯 LARGE SUBSET Ray Finder - Breaking Saturation
+Initial subset size: 10,000 constraints
+Using selection method: mixed
+Adding 30 violations per iteration
+Matrix dimensions: 8665853 constraints × 63 variables
+  Loaded 100,000 constraints...
+  Loaded 200,000 constraints...
+  Loaded 300,000 constraints...
+  Loaded 400,000 constraints...
+  Loaded 500,000 constraints...
+  Loaded 600,000 constraints...
+  Loaded 700,000 constraints...
+  Loaded 800,000 constraints...
+  Loaded 900,000 constraints...
+  Loaded 1,000,000 constraints...
+  Loaded 1,100,000 constraints...
+  Loaded 1,200,000 constraints...
+  Loaded 1,300,000 constraints...
+  Loaded 1,400,000 constraints...
+  Loaded 1,500,000 constraints...
+  Loaded 1,600,000 constraints...
+  Loaded 1,700,000 constraints...
+  Loaded 1,800,000 constraints...
+  Loaded 1,900,000 constraints...
+  Loaded 2,000,000 constraints...
+  Loaded 2,100,000 constraints...
+  Loaded 2,200,000 constraints...
+  Loaded 2,300,000 constraints...
+  Loaded 2,400,000 constraints...
+  Loaded 2,500,000 constraints...
+  Loaded 2,600,000 constraints...
+  Loaded 2,700,000 constraints...
+  Loaded 2,800,000 constraints...
+  Loaded 2,900,000 constraints...
+  Loaded 3,000,000 constraints...
+  Loaded 3,100,000 constraints...
+  Loaded 3,200,000 constraints...
+  Loaded 3,300,000 constraints...
+  Loaded 3,400,000 constraints...
+  Loaded 3,500,000 constraints...
+  Loaded 3,600,000 constraints...
+  Loaded 3,700,000 constraints...
+  Loaded 3,800,000 constraints...
+  Loaded 3,900,000 constraints...
+  Loaded 4,000,000 constraints...
+  Loaded 4,100,000 constraints...
+  Loaded 4,200,000 constraints...
+  Loaded 4,300,000 constraints...
+  Loaded 4,400,000 constraints...
+  Loaded 4,500,000 constraints...
+  Loaded 4,600,000 constraints...
+  Loaded 4,700,000 constraints...
+  Loaded 4,800,000 constraints...
+  Loaded 4,900,000 constraints...
+  Loaded 5,000,000 constraints...
+  Loaded 5,100,000 constraints...
+  Loaded 5,200,000 constraints...
+  Loaded 5,300,000 constraints...
+  Loaded 5,400,000 constraints...
+  Loaded 5,500,000 constraints...
+  Loaded 5,600,000 constraints...
+  Loaded 5,700,000 constraints...
+  Loaded 5,800,000 constraints...
+  Loaded 5,900,000 constraints...
+  Loaded 6,000,000 constraints...
+  Loaded 6,100,000 constraints...
+  Loaded 6,200,000 constraints...
+  Loaded 6,300,000 constraints...
+  Loaded 6,400,000 constraints...
+  Loaded 6,500,000 constraints...
+  Loaded 6,600,000 constraints...
+  Loaded 6,700,000 constraints...
+  Loaded 6,800,000 constraints...
+  Loaded 6,900,000 constraints...
+  Loaded 7,000,000 constraints...
+  Loaded 7,100,000 constraints...
+  Loaded 7,200,000 constraints...
+  Loaded 7,300,000 constraints...
+  Loaded 7,400,000 constraints...
+  Loaded 7,500,000 constraints...
+  Loaded 7,600,000 constraints...
+  Loaded 7,700,000 constraints...
+  Loaded 7,800,000 constraints...
+  Loaded 7,900,000 constraints...
+  Loaded 8,000,000 constraints...
+  Loaded 8,100,000 constraints...
+  Loaded 8,200,000 constraints...
+  Loaded 8,300,000 constraints...
+  Loaded 8,400,000 constraints...
+  Loaded 8,500,000 constraints...
+  Loaded 8,600,000 constraints...
+Loaded 8,665,853 constraints
+Memory usage: 4.07 GB
+Loaded 8,665,853 constraints in 63 dimensions
+Load time: 181.6s
+Loaded 4145 known rays from /resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/n6data/rays.txt
+
+Starting LARGE SUBSET ray discovery...
+============================================================
+
+Attempt 1 | Elapsed: 0:00:00.000063 | Found: 0 new rays
+  Using subset size: 10,000 constraints
+  Iteration 0: 10000 active constraints
+  Added 2 violations, total: 10002
+  Added 30 violations, total: 10032
+  Added 3 violations, total: 10035
+  Added 30 violations, total: 10065
+  Added 1 violations, total: 10066
+  Added 30 violations, total: 10096
+  Added 1 violations, total: 10097
+  Added 1 violations, total: 10098
+  Converged in 9 iterations!
+  ✅ Found new ray #1!
+  ✅ Found new ray #2!
+  ✅ Found new ray #3!
+  ✅ Found new ray #4!
+  ✅ Found new ray #5!
+  ✅ Found new ray #6!
+  ✅ Found new ray #7!
+
+Attempt 11 | Elapsed: 0:00:38.247053 | Found: 7 new rays
+  ✅ Found new ray #8!
+  ✅ Found new ray #9!
+  ✅ Found new ray #10!
+  ✅ Found new ray #11!
+
+Attempt 21 | Elapsed: 0:01:17.315904 | Found: 11 new rays
+  ✅ Found new ray #12!
+  ✅ Found new ray #13!
+  ✅ Found new ray #14!
+
+Attempt 31 | Elapsed: 0:01:54.307630 | Found: 14 new rays
+  ✅ Found new ray #15!
+  ✅ Found new ray #16!
+  ✅ Found new ray #17!
+  ✅ Found new ray #18!
+
+Attempt 41 | Elapsed: 0:02:31.016010 | Found: 18 new rays
+  ✅ Found new ray #19!
+  ✅ Found new ray #20!
+
+Attempt 51 | Elapsed: 0:03:12.317290 | Found: 20 new rays
+  Using subset size: 10,000 constraints
+  Iteration 0: 10000 active constraints
+  Added 2 violations, total: 10002
+  Added 30 violations, total: 10032
+  Added 3 violations, total: 10035
+  Added 3 violations, total: 10038
+  Added 1 violations, total: 10039
+  Added 30 violations, total: 10069
+  Added 1 violations, total: 10070
+  Added 1 violations, total: 10071
+  Converged in 9 iterations!
+
+Attempt 61 | Elapsed: 0:03:52.684608 | Found: 20 new rays
+
+Attempt 71 | Elapsed: 0:04:32.299042 | Found: 20 new rays
+
+Attempt 81 | Elapsed: 0:05:12.822564 | Found: 20 new rays
+
+Attempt 91 | Elapsed: 0:05:47.010933 | Found: 20 new rays
+
+Attempt 101 | Elapsed: 0:06:26.214751 | Found: 20 new rays
+  Using subset size: 15,000 constraints
+  Iteration 0: 15000 active constraints
+  Added 2 violations, total: 15002
+  Added 30 violations, total: 15032
+  Added 30 violations, total: 15062
+  Added 1 violations, total: 15063
+  Added 1 violations, total: 15064
+  Added 1 violations, total: 15065
+  Added 1 violations, total: 15066
+  Added 1 violations, total: 15067
+  Added 1 violations, total: 15068
+  Added 1 violations, total: 15069
+  Iteration 10: 15069 active constraints
+  Converged in 11 iterations!
+
+Attempt 111 | Elapsed: 0:07:17.490726 | Found: 20 new rays
+
+Attempt 121 | Elapsed: 0:08:07.376299 | Found: 20 new rays
+
+Attempt 131 | Elapsed: 0:08:57.447133 | Found: 20 new rays
+
+Attempt 141 | Elapsed: 0:09:47.441995 | Found: 20 new rays
+
+Attempt 151 | Elapsed: 0:10:42.541656 | Found: 20 new rays
+  Using subset size: 15,000 constraints
+  Iteration 0: 15000 active constraints
+  Added 30 violations, total: 15030
+  Added 2 violations, total: 15032
+  Added 2 violations, total: 15034
+  Added 30 violations, total: 15064
+  Added 30 violations, total: 15094
+  Added 30 violations, total: 15124
+  Converged in 7 iterations!
+
+Attempt 161 | Elapsed: 0:11:34.757797 | Found: 20 new rays
+
+Attempt 171 | Elapsed: 0:12:23.669730 | Found: 20 new rays
+
+Attempt 181 | Elapsed: 0:13:17.560251 | Found: 20 new rays
+
+Attempt 191 | Elapsed: 0:14:01.374976 | Found: 20 new rays
+
+Attempt 201 | Elapsed: 0:14:46.383432 | Found: 20 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 2 violations, total: 20038
+  Added 2 violations, total: 20040
+  Added 1 violations, total: 20041
+  Added 30 violations, total: 20071
+  Converged in 9 iterations!
+
+Attempt 211 | Elapsed: 0:15:44.548146 | Found: 20 new rays
+
+Attempt 221 | Elapsed: 0:16:48.401517 | Found: 20 new rays
+
+Attempt 231 | Elapsed: 0:17:42.846077 | Found: 20 new rays
+
+Attempt 241 | Elapsed: 0:18:37.138741 | Found: 20 new rays
+
+Attempt 251 | Elapsed: 0:19:28.644748 | Found: 20 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 30 violations, total: 20093
+  Added 1 violations, total: 20094
+  Converged in 7 iterations!
+
+Attempt 261 | Elapsed: 0:20:28.274756 | Found: 20 new rays
+
+Attempt 271 | Elapsed: 0:21:23.537335 | Found: 20 new rays
+
+Attempt 281 | Elapsed: 0:22:20.106994 | Found: 20 new rays
+
+Attempt 291 | Elapsed: 0:23:15.569947 | Found: 20 new rays
+
+Attempt 301 | Elapsed: 0:24:16.448636 | Found: 20 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 5 violations, total: 20035
+  Added 1 violations, total: 20036
+  Added 30 violations, total: 20066
+  Added 1 violations, total: 20067
+  Added 1 violations, total: 20068
+  Added 1 violations, total: 20069
+  Added 1 violations, total: 20070
+  Converged in 9 iterations!
+
+Attempt 311 | Elapsed: 0:25:17.391353 | Found: 20 new rays
+
+Attempt 321 | Elapsed: 0:26:15.850831 | Found: 20 new rays
+
+Attempt 331 | Elapsed: 0:27:19.803255 | Found: 20 new rays
+
+Attempt 341 | Elapsed: 0:28:18.514882 | Found: 20 new rays
+
+Attempt 351 | Elapsed: 0:29:25.964404 | Found: 20 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 1 violations, total: 20033
+  Added 2 violations, total: 20035
+  Added 1 violations, total: 20036
+  Added 1 violations, total: 20037
+  Added 2 violations, total: 20039
+  Added 1 violations, total: 20040
+  Added 1 violations, total: 20041
+  Added 1 violations, total: 20042
+  Iteration 10: 20042 active constraints
+  Converged in 11 iterations!
+
+Attempt 361 | Elapsed: 0:30:22.970485 | Found: 20 new rays
+
+Attempt 371 | Elapsed: 0:31:17.437522 | Found: 20 new rays
+
+Attempt 381 | Elapsed: 0:32:09.455941 | Found: 20 new rays
+
+Attempt 391 | Elapsed: 0:33:07.858775 | Found: 20 new rays
+
+Attempt 401 | Elapsed: 0:34:05.226043 | Found: 20 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 30 violations, total: 20093
+  Added 1 violations, total: 20094
+  Added 1 violations, total: 20095
+  Added 1 violations, total: 20096
+  Added 1 violations, total: 20097
+  Added 1 violations, total: 20098
+  Iteration 10: 20098 active constraints
+  Converged in 11 iterations!
+
+Attempt 411 | Elapsed: 0:35:09.497246 | Found: 20 new rays
+
+Attempt 421 | Elapsed: 0:36:10.548469 | Found: 20 new rays
+
+Attempt 431 | Elapsed: 0:37:06.475522 | Found: 20 new rays
+
+Attempt 441 | Elapsed: 0:38:06.972089 | Found: 20 new rays
+
+Attempt 451 | Elapsed: 0:38:58.571792 | Found: 20 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 30 violations, total: 20093
+  Added 1 violations, total: 20094
+  Converged in 7 iterations!
+
+Attempt 461 | Elapsed: 0:39:48.854604 | Found: 20 new rays
+  ✅ Found new ray #21!
+
+Attempt 471 | Elapsed: 0:40:46.652360 | Found: 21 new rays
+
+Attempt 481 | Elapsed: 0:41:52.111770 | Found: 21 new rays
+
+Attempt 491 | Elapsed: 0:42:47.805249 | Found: 21 new rays
+
+Attempt 501 | Elapsed: 0:43:47.868582 | Found: 21 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 5 violations, total: 20005
+  Added 30 violations, total: 20035
+  Added 30 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 2 violations, total: 20068
+  Added 1 violations, total: 20069
+  Added 1 violations, total: 20070
+  Converged in 8 iterations!
+
+Attempt 511 | Elapsed: 0:44:46.133335 | Found: 21 new rays
+
+Attempt 521 | Elapsed: 0:45:42.982465 | Found: 21 new rays
+
+Attempt 531 | Elapsed: 0:46:37.988351 | Found: 21 new rays
+
+Attempt 541 | Elapsed: 0:47:34.806268 | Found: 21 new rays
+
+Attempt 551 | Elapsed: 0:48:33.739823 | Found: 21 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 30 violations, total: 20093
+  Converged in 6 iterations!
+
+Attempt 561 | Elapsed: 0:49:23.771915 | Found: 21 new rays
+
+Attempt 571 | Elapsed: 0:50:17.963462 | Found: 21 new rays
+  ✅ Found new ray #22!
+
+Attempt 581 | Elapsed: 0:51:14.360328 | Found: 22 new rays
+
+Attempt 591 | Elapsed: 0:52:12.897167 | Found: 22 new rays
+
+Attempt 601 | Elapsed: 0:53:14.245646 | Found: 22 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 2 violations, total: 20094
+  Added 2 violations, total: 20096
+  Added 1 violations, total: 20097
+  Added 30 violations, total: 20127
+  Converged in 9 iterations!
+
+Attempt 611 | Elapsed: 0:54:18.392965 | Found: 22 new rays
+
+Attempt 621 | Elapsed: 0:55:09.010523 | Found: 22 new rays
+
+Attempt 631 | Elapsed: 0:56:09.244927 | Found: 22 new rays
+
+Attempt 641 | Elapsed: 0:57:16.338826 | Found: 22 new rays
+
+Attempt 651 | Elapsed: 0:58:12.529237 | Found: 22 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 1 violations, total: 20061
+  Added 3 violations, total: 20064
+  Added 30 violations, total: 20094
+  Converged in 6 iterations!
+
+Attempt 661 | Elapsed: 0:59:13.410462 | Found: 22 new rays
+
+Attempt 671 | Elapsed: 1:00:19.494263 | Found: 22 new rays
+
+Attempt 681 | Elapsed: 1:01:24.463111 | Found: 22 new rays
+
+Attempt 691 | Elapsed: 1:02:26.811435 | Found: 22 new rays
+
+Attempt 701 | Elapsed: 1:03:27.317268 | Found: 22 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 1 violations, total: 20061
+  Added 30 violations, total: 20091
+  Added 2 violations, total: 20093
+  Converged in 6 iterations!
+
+Attempt 711 | Elapsed: 1:04:24.198523 | Found: 22 new rays
+
+Attempt 721 | Elapsed: 1:05:30.197358 | Found: 22 new rays
+
+Attempt 731 | Elapsed: 1:06:33.747337 | Found: 22 new rays
+
+Attempt 741 | Elapsed: 1:07:34.180483 | Found: 22 new rays
+
+Attempt 751 | Elapsed: 1:08:33.157395 | Found: 22 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 1 violations, total: 20035
+  Added 2 violations, total: 20037
+  Added 2 violations, total: 20039
+  Added 1 violations, total: 20040
+  Added 30 violations, total: 20070
+  Converged in 9 iterations!
+
+Attempt 761 | Elapsed: 1:09:41.840156 | Found: 22 new rays
+
+Attempt 771 | Elapsed: 1:10:47.460676 | Found: 22 new rays
+
+Attempt 781 | Elapsed: 1:11:45.593816 | Found: 22 new rays
+
+Attempt 791 | Elapsed: 1:12:49.359944 | Found: 22 new rays
+
+Attempt 801 | Elapsed: 1:13:57.228617 | Found: 22 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 3 violations, total: 20035
+  Added 2 violations, total: 20037
+  Added 30 violations, total: 20067
+  Added 2 violations, total: 20069
+  Added 30 violations, total: 20099
+  Added 1 violations, total: 20100
+  Converged in 9 iterations!
+
+Attempt 811 | Elapsed: 1:15:00.220212 | Found: 22 new rays
+
+Attempt 821 | Elapsed: 1:15:59.983865 | Found: 22 new rays
+
+Attempt 831 | Elapsed: 1:17:00.056033 | Found: 22 new rays
+
+Attempt 841 | Elapsed: 1:17:57.375680 | Found: 22 new rays
+
+Attempt 851 | Elapsed: 1:18:58.770813 | Found: 22 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 30 violations, total: 20093
+  Added 1 violations, total: 20094
+  Converged in 7 iterations!
+
+Attempt 861 | Elapsed: 1:20:00.836649 | Found: 22 new rays
+
+Attempt 871 | Elapsed: 1:21:01.839781 | Found: 22 new rays
+
+Attempt 881 | Elapsed: 1:21:58.978791 | Found: 22 new rays
+
+Attempt 891 | Elapsed: 1:22:57.565676 | Found: 22 new rays
+
+Attempt 901 | Elapsed: 1:24:00.857118 | Found: 22 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 1 violations, total: 20035
+  Added 1 violations, total: 20036
+  Added 30 violations, total: 20066
+  Added 1 violations, total: 20067
+  Converged in 8 iterations!
+  ✅ Found new ray #23!
+
+Attempt 911 | Elapsed: 1:25:01.993066 | Found: 23 new rays
+
+Attempt 921 | Elapsed: 1:25:58.759250 | Found: 23 new rays
+
+Attempt 931 | Elapsed: 1:26:57.118862 | Found: 23 new rays
+
+Attempt 941 | Elapsed: 1:27:56.573292 | Found: 23 new rays
+
+Attempt 951 | Elapsed: 1:29:02.555593 | Found: 23 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 3 violations, total: 20063
+  Added 2 violations, total: 20065
+  Added 30 violations, total: 20095
+  Added 2 violations, total: 20097
+  Added 2 violations, total: 20099
+  Added 1 violations, total: 20100
+  Added 1 violations, total: 20101
+  Added 2 violations, total: 20103
+  Iteration 10: 20103 active constraints
+  Added 30 violations, total: 20133
+  Converged in 12 iterations!
+
+Attempt 961 | Elapsed: 1:29:59.438385 | Found: 23 new rays
+
+Attempt 971 | Elapsed: 1:30:57.781157 | Found: 23 new rays
+
+Attempt 981 | Elapsed: 1:31:52.940186 | Found: 23 new rays
+
+Attempt 991 | Elapsed: 1:33:04.190564 | Found: 23 new rays
+
+Attempt 1001 | Elapsed: 1:34:10.933889 | Found: 23 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 30 violations, total: 20092
+  Converged in 5 iterations!
+
+Attempt 1011 | Elapsed: 1:35:14.474515 | Found: 23 new rays
+
+Attempt 1021 | Elapsed: 1:36:10.185081 | Found: 23 new rays
+
+Attempt 1031 | Elapsed: 1:37:10.453559 | Found: 23 new rays
+
+Attempt 1041 | Elapsed: 1:38:07.234993 | Found: 23 new rays
+
+Attempt 1051 | Elapsed: 1:39:09.570404 | Found: 23 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 2 violations, total: 20004
+  Added 30 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 30 violations, total: 20095
+  Converged in 7 iterations!
+
+Attempt 1061 | Elapsed: 1:40:07.136800 | Found: 23 new rays
+
+Attempt 1071 | Elapsed: 1:41:08.755619 | Found: 23 new rays
+
+Attempt 1081 | Elapsed: 1:42:14.109226 | Found: 23 new rays
+
+Attempt 1091 | Elapsed: 1:43:19.268531 | Found: 23 new rays
+
+Attempt 1101 | Elapsed: 1:44:20.937483 | Found: 23 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 4 violations, total: 20036
+  Added 2 violations, total: 20038
+  Added 30 violations, total: 20068
+  Converged in 6 iterations!
+
+Attempt 1111 | Elapsed: 1:45:26.362936 | Found: 23 new rays
+
+Attempt 1121 | Elapsed: 1:46:24.087425 | Found: 23 new rays
+
+Attempt 1131 | Elapsed: 1:47:22.536576 | Found: 23 new rays
+
+Attempt 1141 | Elapsed: 1:48:29.180977 | Found: 23 new rays
+
+Attempt 1151 | Elapsed: 1:49:30.973849 | Found: 23 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 2 violations, total: 20004
+  Added 30 violations, total: 20034
+  Added 1 violations, total: 20035
+  Added 30 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 1 violations, total: 20067
+  Added 1 violations, total: 20068
+  Added 1 violations, total: 20069
+  Added 1 violations, total: 20070
+  Iteration 10: 20070 active constraints
+  Added 30 violations, total: 20100
+  Converged in 12 iterations!
+
+Attempt 1161 | Elapsed: 1:50:42.089495 | Found: 23 new rays
+
+Attempt 1171 | Elapsed: 1:51:49.174547 | Found: 23 new rays
+
+Attempt 1181 | Elapsed: 1:52:45.307854 | Found: 23 new rays
+
+Attempt 1191 | Elapsed: 1:53:40.109464 | Found: 23 new rays
+
+Attempt 1201 | Elapsed: 1:54:48.499989 | Found: 23 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 30 violations, total: 20066
+  Added 1 violations, total: 20067
+  Added 30 violations, total: 20097
+  Converged in 8 iterations!
+
+Attempt 1211 | Elapsed: 1:55:51.710824 | Found: 23 new rays
+
+Attempt 1221 | Elapsed: 1:56:56.237410 | Found: 23 new rays
+
+Attempt 1231 | Elapsed: 1:57:56.160699 | Found: 23 new rays
+
+Attempt 1241 | Elapsed: 1:58:52.756291 | Found: 23 new rays
+
+Attempt 1251 | Elapsed: 1:59:55.973313 | Found: 23 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 3 violations, total: 20033
+  Added 2 violations, total: 20035
+  Added 2 violations, total: 20037
+  Added 2 violations, total: 20039
+  Added 30 violations, total: 20069
+  Added 2 violations, total: 20071
+  Converged in 8 iterations!
+
+Attempt 1261 | Elapsed: 2:01:02.634266 | Found: 23 new rays
+
+Attempt 1271 | Elapsed: 2:02:04.470978 | Found: 23 new rays
+
+Attempt 1281 | Elapsed: 2:03:13.884891 | Found: 23 new rays
+  ✅ Found new ray #24!
+
+Attempt 1291 | Elapsed: 2:04:14.410175 | Found: 24 new rays
+
+Attempt 1301 | Elapsed: 2:05:20.383998 | Found: 24 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 30 violations, total: 20066
+  Added 30 violations, total: 20096
+  Converged in 7 iterations!
+
+Attempt 1311 | Elapsed: 2:06:21.709076 | Found: 24 new rays
+
+Attempt 1321 | Elapsed: 2:07:23.621757 | Found: 24 new rays
+
+Attempt 1331 | Elapsed: 2:08:21.961620 | Found: 24 new rays
+
+Attempt 1341 | Elapsed: 2:09:22.274577 | Found: 24 new rays
+
+Attempt 1351 | Elapsed: 2:10:19.156619 | Found: 24 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 30 violations, total: 20090
+  Added 1 violations, total: 20091
+  Added 1 violations, total: 20092
+  Added 1 violations, total: 20093
+  Added 2 violations, total: 20095
+  Added 1 violations, total: 20096
+  Converged in 9 iterations!
+
+Attempt 1361 | Elapsed: 2:11:16.211177 | Found: 24 new rays
+  ✅ Found new ray #25!
+
+Attempt 1371 | Elapsed: 2:12:23.549062 | Found: 25 new rays
+
+Attempt 1381 | Elapsed: 2:13:19.613455 | Found: 25 new rays
+
+Attempt 1391 | Elapsed: 2:14:19.793117 | Found: 25 new rays
+
+Attempt 1401 | Elapsed: 2:15:16.717856 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 2 violations, total: 20094
+  Added 30 violations, total: 20124
+  Added 1 violations, total: 20125
+  Added 1 violations, total: 20126
+  Converged in 9 iterations!
+
+Attempt 1411 | Elapsed: 2:16:16.955768 | Found: 25 new rays
+
+Attempt 1421 | Elapsed: 2:17:16.820439 | Found: 25 new rays
+
+Attempt 1431 | Elapsed: 2:18:12.170666 | Found: 25 new rays
+
+Attempt 1441 | Elapsed: 2:19:07.597595 | Found: 25 new rays
+
+Attempt 1451 | Elapsed: 2:20:12.617222 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 2 violations, total: 20004
+  Added 30 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 2 violations, total: 20068
+  Converged in 8 iterations!
+
+Attempt 1461 | Elapsed: 2:21:12.609067 | Found: 25 new rays
+
+Attempt 1471 | Elapsed: 2:22:11.101867 | Found: 25 new rays
+
+Attempt 1481 | Elapsed: 2:23:09.812626 | Found: 25 new rays
+
+Attempt 1491 | Elapsed: 2:24:15.318538 | Found: 25 new rays
+
+Attempt 1501 | Elapsed: 2:25:16.166535 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 30 violations, total: 20122
+  Converged in 6 iterations!
+
+Attempt 1511 | Elapsed: 2:26:12.324697 | Found: 25 new rays
+
+Attempt 1521 | Elapsed: 2:27:14.505852 | Found: 25 new rays
+
+Attempt 1531 | Elapsed: 2:28:21.044739 | Found: 25 new rays
+
+Attempt 1541 | Elapsed: 2:29:17.928632 | Found: 25 new rays
+
+Attempt 1551 | Elapsed: 2:30:10.654294 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 1 violations, total: 20093
+  Added 2 violations, total: 20095
+  Converged in 7 iterations!
+
+Attempt 1561 | Elapsed: 2:31:10.793272 | Found: 25 new rays
+
+Attempt 1571 | Elapsed: 2:32:10.717735 | Found: 25 new rays
+
+Attempt 1581 | Elapsed: 2:33:09.077850 | Found: 25 new rays
+
+Attempt 1591 | Elapsed: 2:34:12.769521 | Found: 25 new rays
+
+Attempt 1601 | Elapsed: 2:35:06.117864 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 1 violations, total: 20065
+  Converged in 6 iterations!
+
+Attempt 1611 | Elapsed: 2:36:07.295898 | Found: 25 new rays
+
+Attempt 1621 | Elapsed: 2:37:06.864527 | Found: 25 new rays
+
+Attempt 1631 | Elapsed: 2:38:07.892754 | Found: 25 new rays
+
+Attempt 1641 | Elapsed: 2:38:58.378819 | Found: 25 new rays
+
+Attempt 1651 | Elapsed: 2:40:00.059600 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 30 violations, total: 20066
+  Added 1 violations, total: 20067
+  Added 1 violations, total: 20068
+  Added 1 violations, total: 20069
+  Converged in 9 iterations!
+
+Attempt 1661 | Elapsed: 2:41:04.932641 | Found: 25 new rays
+
+Attempt 1671 | Elapsed: 2:42:08.408277 | Found: 25 new rays
+
+Attempt 1681 | Elapsed: 2:43:10.739643 | Found: 25 new rays
+
+Attempt 1691 | Elapsed: 2:44:14.860776 | Found: 25 new rays
+
+Attempt 1701 | Elapsed: 2:45:12.403487 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 1 violations, total: 20033
+  Added 30 violations, total: 20063
+  Added 2 violations, total: 20065
+  Added 30 violations, total: 20095
+  Converged in 7 iterations!
+
+Attempt 1711 | Elapsed: 2:46:13.059400 | Found: 25 new rays
+
+Attempt 1721 | Elapsed: 2:47:21.309991 | Found: 25 new rays
+
+Attempt 1731 | Elapsed: 2:48:21.046383 | Found: 25 new rays
+
+Attempt 1741 | Elapsed: 2:49:19.605776 | Found: 25 new rays
+
+Attempt 1751 | Elapsed: 2:50:11.677945 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 2 violations, total: 20065
+  Converged in 6 iterations!
+
+Attempt 1761 | Elapsed: 2:51:07.133595 | Found: 25 new rays
+
+Attempt 1771 | Elapsed: 2:52:02.326433 | Found: 25 new rays
+
+Attempt 1781 | Elapsed: 2:53:01.273249 | Found: 25 new rays
+
+Attempt 1791 | Elapsed: 2:54:05.752654 | Found: 25 new rays
+
+Attempt 1801 | Elapsed: 2:55:11.036690 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 2 violations, total: 20067
+  Added 1 violations, total: 20068
+  Added 30 violations, total: 20098
+  Added 1 violations, total: 20099
+  Converged in 10 iterations!
+
+Attempt 1811 | Elapsed: 2:56:07.721354 | Found: 25 new rays
+
+Attempt 1821 | Elapsed: 2:57:06.735976 | Found: 25 new rays
+
+Attempt 1831 | Elapsed: 2:57:58.553096 | Found: 25 new rays
+
+Attempt 1841 | Elapsed: 2:58:56.970762 | Found: 25 new rays
+
+Attempt 1851 | Elapsed: 2:59:54.738498 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 3 violations, total: 20035
+  Added 2 violations, total: 20037
+  Added 3 violations, total: 20040
+  Added 30 violations, total: 20070
+  Added 1 violations, total: 20071
+  Added 2 violations, total: 20073
+  Converged in 9 iterations!
+
+Attempt 1861 | Elapsed: 3:00:54.260810 | Found: 25 new rays
+
+Attempt 1871 | Elapsed: 3:01:56.941679 | Found: 25 new rays
+
+Attempt 1881 | Elapsed: 3:02:57.211352 | Found: 25 new rays
+
+Attempt 1891 | Elapsed: 3:03:51.630913 | Found: 25 new rays
+
+Attempt 1901 | Elapsed: 3:04:51.879736 | Found: 25 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 30 violations, total: 20122
+  Converged in 6 iterations!
+
+Attempt 1911 | Elapsed: 3:05:48.957089 | Found: 25 new rays
+
+Attempt 1921 | Elapsed: 3:06:49.727206 | Found: 25 new rays
+
+Attempt 1931 | Elapsed: 3:07:48.454303 | Found: 25 new rays
+
+Attempt 1941 | Elapsed: 3:08:39.039619 | Found: 25 new rays
+  ✅ Found new ray #26!
+
+Attempt 1951 | Elapsed: 3:09:32.655624 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 2 violations, total: 20064
+  Added 30 violations, total: 20094
+  Added 30 violations, total: 20124
+  Added 1 violations, total: 20125
+  Added 1 violations, total: 20126
+  Added 30 violations, total: 20156
+  Converged in 10 iterations!
+
+Attempt 1961 | Elapsed: 3:10:30.778595 | Found: 26 new rays
+
+Attempt 1971 | Elapsed: 3:11:29.299935 | Found: 26 new rays
+
+Attempt 1981 | Elapsed: 3:12:37.461752 | Found: 26 new rays
+
+Attempt 1991 | Elapsed: 3:13:34.868459 | Found: 26 new rays
+
+Attempt 2001 | Elapsed: 3:14:37.092331 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 1 violations, total: 20061
+  Added 30 violations, total: 20091
+  Added 1 violations, total: 20092
+  Converged in 6 iterations!
+
+Attempt 2011 | Elapsed: 3:15:34.213474 | Found: 26 new rays
+
+Attempt 2021 | Elapsed: 3:16:32.629780 | Found: 26 new rays
+
+Attempt 2031 | Elapsed: 3:17:32.864542 | Found: 26 new rays
+
+Attempt 2041 | Elapsed: 3:18:35.719414 | Found: 26 new rays
+
+Attempt 2051 | Elapsed: 3:19:37.416538 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 2 violations, total: 20038
+  Added 30 violations, total: 20068
+  Added 1 violations, total: 20069
+  Added 1 violations, total: 20070
+  Converged in 9 iterations!
+
+Attempt 2061 | Elapsed: 3:20:41.028281 | Found: 26 new rays
+
+Attempt 2071 | Elapsed: 3:21:43.865847 | Found: 26 new rays
+
+Attempt 2081 | Elapsed: 3:22:42.147561 | Found: 26 new rays
+
+Attempt 2091 | Elapsed: 3:23:38.576260 | Found: 26 new rays
+
+Attempt 2101 | Elapsed: 3:24:39.629964 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 1 violations, total: 20064
+  Added 4 violations, total: 20068
+  Added 1 violations, total: 20069
+  Converged in 8 iterations!
+
+Attempt 2111 | Elapsed: 3:25:36.044890 | Found: 26 new rays
+
+Attempt 2121 | Elapsed: 3:26:31.370754 | Found: 26 new rays
+
+Attempt 2131 | Elapsed: 3:27:29.435692 | Found: 26 new rays
+
+Attempt 2141 | Elapsed: 3:28:26.385353 | Found: 26 new rays
+
+Attempt 2151 | Elapsed: 3:29:24.210330 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 2 violations, total: 20065
+  Added 2 violations, total: 20067
+  Added 1 violations, total: 20068
+  Added 2 violations, total: 20070
+  Added 1 violations, total: 20071
+  Converged in 10 iterations!
+
+Attempt 2161 | Elapsed: 3:30:23.332428 | Found: 26 new rays
+
+Attempt 2171 | Elapsed: 3:31:25.381339 | Found: 26 new rays
+
+Attempt 2181 | Elapsed: 3:32:20.970459 | Found: 26 new rays
+
+Attempt 2191 | Elapsed: 3:33:14.489155 | Found: 26 new rays
+
+Attempt 2201 | Elapsed: 3:34:19.040503 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 1 violations, total: 20035
+  Added 1 violations, total: 20036
+  Added 2 violations, total: 20038
+  Added 30 violations, total: 20068
+  Converged in 8 iterations!
+
+Attempt 2211 | Elapsed: 3:35:19.566463 | Found: 26 new rays
+
+Attempt 2221 | Elapsed: 3:36:21.408590 | Found: 26 new rays
+
+Attempt 2231 | Elapsed: 3:37:23.228053 | Found: 26 new rays
+
+Attempt 2241 | Elapsed: 3:38:28.454607 | Found: 26 new rays
+
+Attempt 2251 | Elapsed: 3:39:26.826891 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 2 violations, total: 20094
+  Added 1 violations, total: 20095
+  Added 1 violations, total: 20096
+  Converged in 8 iterations!
+
+Attempt 2261 | Elapsed: 3:40:33.813566 | Found: 26 new rays
+
+Attempt 2271 | Elapsed: 3:41:42.523287 | Found: 26 new rays
+
+Attempt 2281 | Elapsed: 3:42:43.755421 | Found: 26 new rays
+
+Attempt 2291 | Elapsed: 3:43:44.498592 | Found: 26 new rays
+
+Attempt 2301 | Elapsed: 3:44:37.740430 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 3 violations, total: 20033
+  Added 30 violations, total: 20063
+  Added 1 violations, total: 20064
+  Added 30 violations, total: 20094
+  Added 1 violations, total: 20095
+  Added 3 violations, total: 20098
+  Added 1 violations, total: 20099
+  Added 1 violations, total: 20100
+  Added 30 violations, total: 20130
+  Iteration 10: 20130 active constraints
+  Converged in 11 iterations!
+
+Attempt 2311 | Elapsed: 3:45:37.816182 | Found: 26 new rays
+
+Attempt 2321 | Elapsed: 3:46:41.007582 | Found: 26 new rays
+
+Attempt 2331 | Elapsed: 3:47:36.667241 | Found: 26 new rays
+
+Attempt 2341 | Elapsed: 3:48:37.311766 | Found: 26 new rays
+
+Attempt 2351 | Elapsed: 3:49:42.295989 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 3 violations, total: 20033
+  Added 2 violations, total: 20035
+  Added 30 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 2 violations, total: 20068
+  Added 30 violations, total: 20098
+  Added 1 violations, total: 20099
+  Converged in 9 iterations!
+
+Attempt 2361 | Elapsed: 3:50:42.673205 | Found: 26 new rays
+
+Attempt 2371 | Elapsed: 3:51:50.741186 | Found: 26 new rays
+
+Attempt 2381 | Elapsed: 3:52:43.336687 | Found: 26 new rays
+
+Attempt 2391 | Elapsed: 3:53:38.492482 | Found: 26 new rays
+
+Attempt 2401 | Elapsed: 3:54:38.740007 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 2 violations, total: 20004
+  Added 30 violations, total: 20034
+  Added 1 violations, total: 20035
+  Added 2 violations, total: 20037
+  Added 1 violations, total: 20038
+  Converged in 7 iterations!
+
+Attempt 2411 | Elapsed: 3:55:48.540369 | Found: 26 new rays
+
+Attempt 2421 | Elapsed: 3:56:49.339053 | Found: 26 new rays
+
+Attempt 2431 | Elapsed: 3:57:49.269815 | Found: 26 new rays
+
+Attempt 2441 | Elapsed: 3:58:44.604650 | Found: 26 new rays
+
+Attempt 2451 | Elapsed: 3:59:47.330149 | Found: 26 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 3 violations, total: 20037
+  Added 2 violations, total: 20039
+  Added 30 violations, total: 20069
+  Added 30 violations, total: 20099
+  Added 1 violations, total: 20100
+  Converged in 9 iterations!
+  ✅ Found new ray #27!
+
+Attempt 2461 | Elapsed: 4:00:52.378475 | Found: 27 new rays
+
+Attempt 2471 | Elapsed: 4:01:57.282386 | Found: 27 new rays
+
+Attempt 2481 | Elapsed: 4:02:47.705304 | Found: 27 new rays
+
+Attempt 2491 | Elapsed: 4:03:44.139406 | Found: 27 new rays
+
+Attempt 2501 | Elapsed: 4:04:43.482743 | Found: 27 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 30 violations, total: 20092
+  Converged in 5 iterations!
+
+Attempt 2511 | Elapsed: 4:05:44.043551 | Found: 27 new rays
+
+Attempt 2521 | Elapsed: 4:06:46.238838 | Found: 27 new rays
+
+Attempt 2531 | Elapsed: 4:07:38.914950 | Found: 27 new rays
+
+Attempt 2541 | Elapsed: 4:08:39.956605 | Found: 27 new rays
+
+Attempt 2551 | Elapsed: 4:09:34.581163 | Found: 27 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 1 violations, total: 20061
+  Added 30 violations, total: 20091
+  Converged in 5 iterations!
+
+Attempt 2561 | Elapsed: 4:10:35.226204 | Found: 27 new rays
+
+Attempt 2571 | Elapsed: 4:11:26.782451 | Found: 27 new rays
+
+Attempt 2581 | Elapsed: 4:12:24.859586 | Found: 27 new rays
+
+Attempt 2591 | Elapsed: 4:13:26.941843 | Found: 27 new rays
+
+Attempt 2601 | Elapsed: 4:14:34.026495 | Found: 27 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 30 violations, total: 20095
+  Added 1 violations, total: 20096
+  Added 2 violations, total: 20098
+  Converged in 9 iterations!
+
+Attempt 2611 | Elapsed: 4:15:27.107406 | Found: 27 new rays
+  ✅ Found new ray #28!
+
+Attempt 2621 | Elapsed: 4:16:20.269104 | Found: 28 new rays
+
+Attempt 2631 | Elapsed: 4:17:20.137827 | Found: 28 new rays
+
+Attempt 2641 | Elapsed: 4:18:17.508536 | Found: 28 new rays
+
+Attempt 2651 | Elapsed: 4:19:17.926538 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 2 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 30 violations, total: 20095
+  Added 2 violations, total: 20097
+  Added 1 violations, total: 20098
+  Added 1 violations, total: 20099
+  Added 1 violations, total: 20100
+  Iteration 10: 20100 active constraints
+  Converged in 11 iterations!
+
+Attempt 2661 | Elapsed: 4:20:18.861083 | Found: 28 new rays
+
+Attempt 2671 | Elapsed: 4:21:18.342818 | Found: 28 new rays
+
+Attempt 2681 | Elapsed: 4:22:22.170433 | Found: 28 new rays
+
+Attempt 2691 | Elapsed: 4:23:28.006436 | Found: 28 new rays
+
+Attempt 2701 | Elapsed: 4:24:29.108430 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 2 violations, total: 20064
+  Added 30 violations, total: 20094
+  Added 1 violations, total: 20095
+  Added 30 violations, total: 20125
+  Converged in 8 iterations!
+
+Attempt 2711 | Elapsed: 4:25:34.743792 | Found: 28 new rays
+
+Attempt 2721 | Elapsed: 4:26:36.858846 | Found: 28 new rays
+
+Attempt 2731 | Elapsed: 4:27:41.142858 | Found: 28 new rays
+
+Attempt 2741 | Elapsed: 4:28:49.555995 | Found: 28 new rays
+
+Attempt 2751 | Elapsed: 4:29:55.043472 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 2 violations, total: 20064
+  Added 2 violations, total: 20066
+  Added 30 violations, total: 20096
+  Converged in 7 iterations!
+
+Attempt 2761 | Elapsed: 4:30:54.397881 | Found: 28 new rays
+
+Attempt 2771 | Elapsed: 4:31:54.387030 | Found: 28 new rays
+
+Attempt 2781 | Elapsed: 4:32:55.672365 | Found: 28 new rays
+
+Attempt 2791 | Elapsed: 4:33:55.843462 | Found: 28 new rays
+
+Attempt 2801 | Elapsed: 4:35:02.962469 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 4 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 2 violations, total: 20066
+  Added 3 violations, total: 20069
+  Converged in 6 iterations!
+
+Attempt 2811 | Elapsed: 4:36:15.400003 | Found: 28 new rays
+
+Attempt 2821 | Elapsed: 4:37:19.688646 | Found: 28 new rays
+
+Attempt 2831 | Elapsed: 4:38:17.310837 | Found: 28 new rays
+
+Attempt 2841 | Elapsed: 4:39:12.757175 | Found: 28 new rays
+
+Attempt 2851 | Elapsed: 4:40:22.456468 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 3 violations, total: 20037
+  Added 2 violations, total: 20039
+  Added 1 violations, total: 20040
+  Added 1 violations, total: 20041
+  Added 1 violations, total: 20042
+  Added 30 violations, total: 20072
+  Added 1 violations, total: 20073
+  Iteration 10: 20073 active constraints
+  Converged in 11 iterations!
+
+Attempt 2861 | Elapsed: 4:41:27.361573 | Found: 28 new rays
+
+Attempt 2871 | Elapsed: 4:42:25.172145 | Found: 28 new rays
+
+Attempt 2881 | Elapsed: 4:43:27.456299 | Found: 28 new rays
+
+Attempt 2891 | Elapsed: 4:44:25.608425 | Found: 28 new rays
+
+Attempt 2901 | Elapsed: 4:45:24.403026 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 3 violations, total: 20033
+  Added 30 violations, total: 20063
+  Added 30 violations, total: 20093
+  Added 1 violations, total: 20094
+  Converged in 6 iterations!
+
+Attempt 2911 | Elapsed: 4:46:20.001915 | Found: 28 new rays
+
+Attempt 2921 | Elapsed: 4:47:22.942528 | Found: 28 new rays
+
+Attempt 2931 | Elapsed: 4:48:22.999636 | Found: 28 new rays
+
+Attempt 2941 | Elapsed: 4:49:30.874231 | Found: 28 new rays
+
+Attempt 2951 | Elapsed: 4:50:28.291731 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 30 violations, total: 20094
+  Added 1 violations, total: 20095
+  Converged in 7 iterations!
+
+Attempt 2961 | Elapsed: 4:51:25.546824 | Found: 28 new rays
+
+Attempt 2971 | Elapsed: 4:52:29.682705 | Found: 28 new rays
+
+Attempt 2981 | Elapsed: 4:53:26.983154 | Found: 28 new rays
+
+Attempt 2991 | Elapsed: 4:54:28.988258 | Found: 28 new rays
+
+Attempt 3001 | Elapsed: 4:55:33.584236 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 5 violations, total: 20037
+  Added 30 violations, total: 20067
+  Added 1 violations, total: 20068
+  Added 30 violations, total: 20098
+  Added 1 violations, total: 20099
+  Converged in 8 iterations!
+
+Attempt 3011 | Elapsed: 4:56:27.152498 | Found: 28 new rays
+
+Attempt 3021 | Elapsed: 4:57:33.614087 | Found: 28 new rays
+
+Attempt 3031 | Elapsed: 4:58:35.678956 | Found: 28 new rays
+
+Attempt 3041 | Elapsed: 4:59:38.102440 | Found: 28 new rays
+
+Attempt 3051 | Elapsed: 5:00:37.376453 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 30 violations, total: 20095
+  Converged in 7 iterations!
+
+Attempt 3061 | Elapsed: 5:01:34.047966 | Found: 28 new rays
+
+Attempt 3071 | Elapsed: 5:02:51.931136 | Found: 28 new rays
+
+Attempt 3081 | Elapsed: 5:03:52.673488 | Found: 28 new rays
+
+Attempt 3091 | Elapsed: 5:04:48.913793 | Found: 28 new rays
+
+Attempt 3101 | Elapsed: 5:05:39.833430 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 1 violations, total: 20061
+  Converged in 4 iterations!
+
+Attempt 3111 | Elapsed: 5:06:47.449340 | Found: 28 new rays
+
+Attempt 3121 | Elapsed: 5:07:52.398449 | Found: 28 new rays
+
+Attempt 3131 | Elapsed: 5:08:56.485504 | Found: 28 new rays
+
+Attempt 3141 | Elapsed: 5:10:04.161735 | Found: 28 new rays
+
+Attempt 3151 | Elapsed: 5:11:04.801720 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 30 violations, total: 20094
+  Converged in 6 iterations!
+
+Attempt 3161 | Elapsed: 5:12:03.220922 | Found: 28 new rays
+
+Attempt 3171 | Elapsed: 5:12:59.918352 | Found: 28 new rays
+
+Attempt 3181 | Elapsed: 5:14:04.994549 | Found: 28 new rays
+
+Attempt 3191 | Elapsed: 5:15:01.923675 | Found: 28 new rays
+
+Attempt 3201 | Elapsed: 5:16:04.306303 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 2 violations, total: 20064
+  Added 2 violations, total: 20066
+  Added 1 violations, total: 20067
+  Added 1 violations, total: 20068
+  Added 30 violations, total: 20098
+  Added 2 violations, total: 20100
+  Converged in 10 iterations!
+
+Attempt 3211 | Elapsed: 5:17:01.289923 | Found: 28 new rays
+
+Attempt 3221 | Elapsed: 5:17:55.571284 | Found: 28 new rays
+
+Attempt 3231 | Elapsed: 5:19:00.706192 | Found: 28 new rays
+
+Attempt 3241 | Elapsed: 5:19:58.471325 | Found: 28 new rays
+
+Attempt 3251 | Elapsed: 5:20:53.634083 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 2 violations, total: 20068
+  Added 1 violations, total: 20069
+  Converged in 9 iterations!
+
+Attempt 3261 | Elapsed: 5:21:55.166351 | Found: 28 new rays
+
+Attempt 3271 | Elapsed: 5:22:54.068975 | Found: 28 new rays
+
+Attempt 3281 | Elapsed: 5:23:52.568845 | Found: 28 new rays
+
+Attempt 3291 | Elapsed: 5:24:44.509062 | Found: 28 new rays
+
+Attempt 3301 | Elapsed: 5:25:46.560070 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 2 violations, total: 20004
+  Added 30 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 2 violations, total: 20066
+  Added 1 violations, total: 20067
+  Converged in 7 iterations!
+
+Attempt 3311 | Elapsed: 5:26:48.836575 | Found: 28 new rays
+
+Attempt 3321 | Elapsed: 5:27:54.156973 | Found: 28 new rays
+
+Attempt 3331 | Elapsed: 5:29:00.411747 | Found: 28 new rays
+
+Attempt 3341 | Elapsed: 5:29:58.582787 | Found: 28 new rays
+
+Attempt 3351 | Elapsed: 5:30:56.560332 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 1 violations, total: 20033
+  Added 30 violations, total: 20063
+  Added 1 violations, total: 20064
+  Added 2 violations, total: 20066
+  Added 1 violations, total: 20067
+  Added 2 violations, total: 20069
+  Added 1 violations, total: 20070
+  Added 1 violations, total: 20071
+  Iteration 10: 20071 active constraints
+  Converged in 11 iterations!
+
+Attempt 3361 | Elapsed: 5:32:00.986359 | Found: 28 new rays
+
+Attempt 3371 | Elapsed: 5:33:08.009929 | Found: 28 new rays
+
+Attempt 3381 | Elapsed: 5:34:09.311215 | Found: 28 new rays
+
+Attempt 3391 | Elapsed: 5:35:14.157438 | Found: 28 new rays
+
+Attempt 3401 | Elapsed: 5:36:13.747966 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 1 violations, total: 20061
+  Added 1 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 30 violations, total: 20093
+  Converged in 7 iterations!
+
+Attempt 3411 | Elapsed: 5:37:11.772849 | Found: 28 new rays
+
+Attempt 3421 | Elapsed: 5:38:11.916915 | Found: 28 new rays
+
+Attempt 3431 | Elapsed: 5:39:17.023792 | Found: 28 new rays
+
+Attempt 3441 | Elapsed: 5:40:23.305916 | Found: 28 new rays
+
+Attempt 3451 | Elapsed: 5:41:19.724418 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 2 violations, total: 20038
+  Added 1 violations, total: 20039
+  Added 30 violations, total: 20069
+  Converged in 8 iterations!
+
+Attempt 3461 | Elapsed: 5:42:22.007899 | Found: 28 new rays
+
+Attempt 3471 | Elapsed: 5:43:26.001044 | Found: 28 new rays
+
+Attempt 3481 | Elapsed: 5:44:29.030741 | Found: 28 new rays
+
+Attempt 3491 | Elapsed: 5:45:26.383780 | Found: 28 new rays
+
+Attempt 3501 | Elapsed: 5:46:20.144366 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 1 violations, total: 20067
+  Added 1 violations, total: 20068
+  Converged in 9 iterations!
+
+Attempt 3511 | Elapsed: 5:47:21.864460 | Found: 28 new rays
+
+Attempt 3521 | Elapsed: 5:48:22.891416 | Found: 28 new rays
+
+Attempt 3531 | Elapsed: 5:49:24.544632 | Found: 28 new rays
+
+Attempt 3541 | Elapsed: 5:50:27.756460 | Found: 28 new rays
+
+Attempt 3551 | Elapsed: 5:51:23.244619 | Found: 28 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 3 violations, total: 20067
+  Added 30 violations, total: 20097
+  Added 1 violations, total: 20098
+  Converged in 8 iterations!
+  ✅ Found new ray #29!
+
+Attempt 3561 | Elapsed: 5:52:28.120726 | Found: 29 new rays
+
+Attempt 3571 | Elapsed: 5:53:28.907673 | Found: 29 new rays
+
+Attempt 3581 | Elapsed: 5:54:27.066722 | Found: 29 new rays
+
+Attempt 3591 | Elapsed: 5:55:29.052413 | Found: 29 new rays
+
+Attempt 3601 | Elapsed: 5:56:26.375820 | Found: 29 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 1 violations, total: 20033
+  Added 2 violations, total: 20035
+  Added 30 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 1 violations, total: 20067
+  Converged in 8 iterations!
+
+Attempt 3611 | Elapsed: 5:57:27.903137 | Found: 29 new rays
+
+Attempt 3621 | Elapsed: 5:58:25.499613 | Found: 29 new rays
+
+Attempt 3631 | Elapsed: 5:59:38.950294 | Found: 29 new rays
+
+Attempt 3641 | Elapsed: 6:00:45.230891 | Found: 29 new rays
+
+Attempt 3651 | Elapsed: 6:01:38.983722 | Found: 29 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 1 violations, total: 20035
+  Added 30 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 1 violations, total: 20067
+  Added 1 violations, total: 20068
+  Converged in 9 iterations!
+
+Attempt 3661 | Elapsed: 6:02:40.055729 | Found: 29 new rays
+
+Attempt 3671 | Elapsed: 6:03:35.635722 | Found: 29 new rays
+
+Attempt 3681 | Elapsed: 6:04:33.885105 | Found: 29 new rays
+
+Attempt 3691 | Elapsed: 6:05:36.101935 | Found: 29 new rays
+
+Attempt 3701 | Elapsed: 6:06:41.733019 | Found: 29 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 30 violations, total: 20092
+  Converged in 5 iterations!
+
+Attempt 3711 | Elapsed: 6:07:31.770252 | Found: 29 new rays
+
+Attempt 3721 | Elapsed: 6:08:34.196491 | Found: 29 new rays
+
+Attempt 3731 | Elapsed: 6:09:29.424615 | Found: 29 new rays
+
+Attempt 3741 | Elapsed: 6:10:35.768812 | Found: 29 new rays
+
+Attempt 3751 | Elapsed: 6:11:44.441183 | Found: 29 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 1 violations, total: 20064
+  Added 2 violations, total: 20066
+  Added 2 violations, total: 20068
+  Added 1 violations, total: 20069
+  Added 2 violations, total: 20071
+  Added 2 violations, total: 20073
+  Iteration 10: 20073 active constraints
+  Converged in 11 iterations!
+  ✅ Found new ray #30!
+
+Attempt 3761 | Elapsed: 6:12:46.649881 | Found: 30 new rays
+
+Attempt 3771 | Elapsed: 6:13:49.721345 | Found: 30 new rays
+
+Attempt 3781 | Elapsed: 6:14:58.207080 | Found: 30 new rays
+
+Attempt 3791 | Elapsed: 6:15:56.385960 | Found: 30 new rays
+
+Attempt 3801 | Elapsed: 6:16:49.616008 | Found: 30 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 1 violations, total: 20061
+  Added 1 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 2 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 30 violations, total: 20096
+  Added 2 violations, total: 20098
+  Added 1 violations, total: 20099
+  Iteration 10: 20099 active constraints
+  Converged in 11 iterations!
+
+Attempt 3811 | Elapsed: 6:17:50.611637 | Found: 30 new rays
+
+Attempt 3821 | Elapsed: 6:18:47.886157 | Found: 30 new rays
+
+Attempt 3831 | Elapsed: 6:19:42.180582 | Found: 30 new rays
+
+Attempt 3841 | Elapsed: 6:20:41.780312 | Found: 30 new rays
+
+Attempt 3851 | Elapsed: 6:21:46.741217 | Found: 30 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 3 violations, total: 20035
+  Added 30 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 1 violations, total: 20067
+  Added 30 violations, total: 20097
+  Added 1 violations, total: 20098
+  Converged in 9 iterations!
+
+Attempt 3861 | Elapsed: 6:22:37.379904 | Found: 30 new rays
+
+Attempt 3871 | Elapsed: 6:23:35.809508 | Found: 30 new rays
+
+Attempt 3881 | Elapsed: 6:24:31.986125 | Found: 30 new rays
+
+Attempt 3891 | Elapsed: 6:25:26.513844 | Found: 30 new rays
+
+Attempt 3901 | Elapsed: 6:26:34.050729 | Found: 30 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 2 violations, total: 20066
+  Converged in 6 iterations!
+
+Attempt 3911 | Elapsed: 6:27:31.596299 | Found: 30 new rays
+
+Attempt 3921 | Elapsed: 6:28:32.641637 | Found: 30 new rays
+  ✅ Found new ray #31!
+
+Attempt 3931 | Elapsed: 6:29:37.608674 | Found: 31 new rays
+
+Attempt 3941 | Elapsed: 6:30:40.017554 | Found: 31 new rays
+
+Attempt 3951 | Elapsed: 6:31:40.562055 | Found: 31 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 3 violations, total: 20037
+  Added 30 violations, total: 20067
+  Added 1 violations, total: 20068
+  Added 1 violations, total: 20069
+  Added 1 violations, total: 20070
+  Added 1 violations, total: 20071
+  Converged in 10 iterations!
+
+Attempt 3961 | Elapsed: 6:32:37.365473 | Found: 31 new rays
+
+Attempt 3971 | Elapsed: 6:33:39.995249 | Found: 31 new rays
+
+Attempt 3981 | Elapsed: 6:34:41.925761 | Found: 31 new rays
+
+Attempt 3991 | Elapsed: 6:35:39.833424 | Found: 31 new rays
+
+Attempt 4001 | Elapsed: 6:36:47.452360 | Found: 31 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 2 violations, total: 20004
+  Added 2 violations, total: 20006
+  Added 30 violations, total: 20036
+  Added 1 violations, total: 20037
+  Added 1 violations, total: 20038
+  Converged in 7 iterations!
+
+Attempt 4011 | Elapsed: 6:37:50.230552 | Found: 31 new rays
+
+Attempt 4021 | Elapsed: 6:38:43.746711 | Found: 31 new rays
+
+Attempt 4031 | Elapsed: 6:39:42.122031 | Found: 31 new rays
+
+Attempt 4041 | Elapsed: 6:40:34.347056 | Found: 31 new rays
+
+Attempt 4051 | Elapsed: 6:41:31.862231 | Found: 31 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 1 violations, total: 20064
+  Added 1 violations, total: 20065
+  Converged in 7 iterations!
+
+Attempt 4061 | Elapsed: 6:42:32.894227 | Found: 31 new rays
+
+Attempt 4071 | Elapsed: 6:43:29.307716 | Found: 31 new rays
+
+Attempt 4081 | Elapsed: 6:44:25.078667 | Found: 31 new rays
+
+Attempt 4091 | Elapsed: 6:45:20.503784 | Found: 31 new rays
+
+Attempt 4101 | Elapsed: 6:46:15.821218 | Found: 31 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 1 violations, total: 20033
+  Added 1 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 1 violations, total: 20037
+  Added 1 violations, total: 20038
+  Converged in 8 iterations!
+
+Attempt 4111 | Elapsed: 6:47:12.055129 | Found: 31 new rays
+
+Attempt 4121 | Elapsed: 6:48:15.875955 | Found: 31 new rays
+
+Attempt 4131 | Elapsed: 6:49:22.939070 | Found: 31 new rays
+
+Attempt 4141 | Elapsed: 6:50:22.570641 | Found: 31 new rays
+
+Attempt 4151 | Elapsed: 6:51:17.762588 | Found: 31 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 2 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 30 violations, total: 20095
+  Converged in 7 iterations!
+
+Attempt 4161 | Elapsed: 6:52:14.215070 | Found: 31 new rays
+
+Attempt 4171 | Elapsed: 6:53:12.723729 | Found: 31 new rays
+  ✅ Found new ray #32!
+
+Attempt 4181 | Elapsed: 6:54:15.168646 | Found: 32 new rays
+
+Attempt 4191 | Elapsed: 6:55:12.370782 | Found: 32 new rays
+
+Attempt 4201 | Elapsed: 6:56:18.818298 | Found: 32 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 30 violations, total: 20094
+  Added 1 violations, total: 20095
+  Added 30 violations, total: 20125
+  Converged in 8 iterations!
+
+Attempt 4211 | Elapsed: 6:57:21.797634 | Found: 32 new rays
+
+Attempt 4221 | Elapsed: 6:58:17.968151 | Found: 32 new rays
+
+Attempt 4231 | Elapsed: 6:59:17.956169 | Found: 32 new rays
+
+Attempt 4241 | Elapsed: 7:00:11.555749 | Found: 32 new rays
+
+Attempt 4251 | Elapsed: 7:01:08.049312 | Found: 32 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 3 violations, total: 20003
+  Added 30 violations, total: 20033
+  Added 2 violations, total: 20035
+  Added 2 violations, total: 20037
+  Added 1 violations, total: 20038
+  Added 1 violations, total: 20039
+  Added 1 violations, total: 20040
+  Added 1 violations, total: 20041
+  Added 30 violations, total: 20071
+  Added 1 violations, total: 20072
+  Iteration 10: 20072 active constraints
+  Converged in 11 iterations!
+
+Attempt 4261 | Elapsed: 7:02:07.668092 | Found: 32 new rays
+
+Attempt 4271 | Elapsed: 7:03:17.036526 | Found: 32 new rays
+
+Attempt 4281 | Elapsed: 7:04:21.651264 | Found: 32 new rays
+
+Attempt 4291 | Elapsed: 7:05:21.263201 | Found: 32 new rays
+
+Attempt 4301 | Elapsed: 7:06:22.200924 | Found: 32 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 3 violations, total: 20035
+  Added 2 violations, total: 20037
+  Added 2 violations, total: 20039
+  Added 30 violations, total: 20069
+  Added 2 violations, total: 20071
+  Converged in 8 iterations!
+
+Attempt 4311 | Elapsed: 7:07:20.114792 | Found: 32 new rays
+
+Attempt 4321 | Elapsed: 7:08:36.063031 | Found: 32 new rays
+
+Attempt 4331 | Elapsed: 7:09:37.732720 | Found: 32 new rays
+
+Attempt 4341 | Elapsed: 7:10:35.764322 | Found: 32 new rays
+
+Attempt 4351 | Elapsed: 7:11:42.528789 | Found: 32 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 30 violations, total: 20094
+  Converged in 6 iterations!
+
+Attempt 4361 | Elapsed: 7:12:40.066167 | Found: 32 new rays
+
+Attempt 4371 | Elapsed: 7:13:36.704097 | Found: 32 new rays
+
+Attempt 4381 | Elapsed: 7:14:38.519831 | Found: 32 new rays
+
+Attempt 4391 | Elapsed: 7:15:35.786492 | Found: 32 new rays
+
+Attempt 4401 | Elapsed: 7:16:41.371023 | Found: 32 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 2 violations, total: 20064
+  Added 30 violations, total: 20094
+  Added 1 violations, total: 20095
+  Added 30 violations, total: 20125
+  Converged in 8 iterations!
+
+Attempt 4411 | Elapsed: 7:17:48.236545 | Found: 32 new rays
+
+Attempt 4421 | Elapsed: 7:18:42.907073 | Found: 32 new rays
+
+Attempt 4431 | Elapsed: 7:19:39.750181 | Found: 32 new rays
+
+Attempt 4441 | Elapsed: 7:20:38.271178 | Found: 32 new rays
+
+Attempt 4451 | Elapsed: 7:21:49.053814 | Found: 32 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 1 violations, total: 20037
+  Added 1 violations, total: 20038
+  Added 30 violations, total: 20068
+  Converged in 8 iterations!
+
+Attempt 4461 | Elapsed: 7:22:55.201703 | Found: 32 new rays
+
+Attempt 4471 | Elapsed: 7:23:54.802731 | Found: 32 new rays
+
+Attempt 4481 | Elapsed: 7:24:52.032943 | Found: 32 new rays
+
+Attempt 4491 | Elapsed: 7:25:57.902222 | Found: 32 new rays
+
+Attempt 4501 | Elapsed: 7:26:55.884542 | Found: 32 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 1 violations, total: 20035
+  Added 30 violations, total: 20065
+  Added 30 violations, total: 20095
+  Added 1 violations, total: 20096
+  Converged in 8 iterations!
+
+Attempt 4511 | Elapsed: 7:27:58.509310 | Found: 32 new rays
+  ✅ Found new ray #33!
+
+Attempt 4521 | Elapsed: 7:29:04.060060 | Found: 33 new rays
+
+Attempt 4531 | Elapsed: 7:30:04.713284 | Found: 33 new rays
+
+Attempt 4541 | Elapsed: 7:31:08.650616 | Found: 33 new rays
+  ✅ Found new ray #34!
+
+Attempt 4551 | Elapsed: 7:32:11.929875 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 2 violations, total: 20066
+  Added 1 violations, total: 20067
+  Converged in 7 iterations!
+
+Attempt 4561 | Elapsed: 7:33:08.848566 | Found: 34 new rays
+
+Attempt 4571 | Elapsed: 7:34:08.868714 | Found: 34 new rays
+
+Attempt 4581 | Elapsed: 7:35:10.530492 | Found: 34 new rays
+
+Attempt 4591 | Elapsed: 7:36:10.520508 | Found: 34 new rays
+
+Attempt 4601 | Elapsed: 7:37:05.181808 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 3 violations, total: 20037
+  Added 2 violations, total: 20039
+  Added 1 violations, total: 20040
+  Added 2 violations, total: 20042
+  Added 30 violations, total: 20072
+  Added 1 violations, total: 20073
+  Added 1 violations, total: 20074
+  Iteration 10: 20074 active constraints
+  Added 1 violations, total: 20075
+  Converged in 12 iterations!
+
+Attempt 4611 | Elapsed: 7:38:07.044501 | Found: 34 new rays
+
+Attempt 4621 | Elapsed: 7:39:03.678155 | Found: 34 new rays
+
+Attempt 4631 | Elapsed: 7:40:01.468247 | Found: 34 new rays
+
+Attempt 4641 | Elapsed: 7:40:56.906314 | Found: 34 new rays
+
+Attempt 4651 | Elapsed: 7:41:53.193873 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 30 violations, total: 20066
+  Added 30 violations, total: 20096
+  Converged in 7 iterations!
+
+Attempt 4661 | Elapsed: 7:42:58.815982 | Found: 34 new rays
+
+Attempt 4671 | Elapsed: 7:43:53.977842 | Found: 34 new rays
+
+Attempt 4681 | Elapsed: 7:44:45.416311 | Found: 34 new rays
+
+Attempt 4691 | Elapsed: 7:45:43.794531 | Found: 34 new rays
+
+Attempt 4701 | Elapsed: 7:46:46.695962 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 30 violations, total: 20122
+  Added 1 violations, total: 20123
+  Added 1 violations, total: 20124
+  Converged in 8 iterations!
+
+Attempt 4711 | Elapsed: 7:47:43.490618 | Found: 34 new rays
+
+Attempt 4721 | Elapsed: 7:48:44.685435 | Found: 34 new rays
+
+Attempt 4731 | Elapsed: 7:49:47.277462 | Found: 34 new rays
+
+Attempt 4741 | Elapsed: 7:50:51.893607 | Found: 34 new rays
+
+Attempt 4751 | Elapsed: 7:51:47.140006 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 1 violations, total: 20064
+  Added 2 violations, total: 20066
+  Converged in 7 iterations!
+
+Attempt 4761 | Elapsed: 7:52:46.542414 | Found: 34 new rays
+
+Attempt 4771 | Elapsed: 7:53:51.425108 | Found: 34 new rays
+
+Attempt 4781 | Elapsed: 7:54:56.170468 | Found: 34 new rays
+
+Attempt 4791 | Elapsed: 7:55:56.888662 | Found: 34 new rays
+
+Attempt 4801 | Elapsed: 7:56:57.646715 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 1 violations, total: 20061
+  Added 1 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 1 violations, total: 20093
+  Converged in 7 iterations!
+
+Attempt 4811 | Elapsed: 7:57:58.589753 | Found: 34 new rays
+
+Attempt 4821 | Elapsed: 7:58:53.926838 | Found: 34 new rays
+
+Attempt 4831 | Elapsed: 8:00:07.157453 | Found: 34 new rays
+
+Attempt 4841 | Elapsed: 8:01:15.396105 | Found: 34 new rays
+
+Attempt 4851 | Elapsed: 8:02:19.662799 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 2 violations, total: 20064
+  Added 30 violations, total: 20094
+  Added 2 violations, total: 20096
+  Added 1 violations, total: 20097
+  Added 1 violations, total: 20098
+  Added 2 violations, total: 20100
+  Converged in 10 iterations!
+
+Attempt 4861 | Elapsed: 8:03:21.004014 | Found: 34 new rays
+
+Attempt 4871 | Elapsed: 8:04:19.393872 | Found: 34 new rays
+
+Attempt 4881 | Elapsed: 8:05:13.438029 | Found: 34 new rays
+
+Attempt 4891 | Elapsed: 8:06:05.994170 | Found: 34 new rays
+
+Attempt 4901 | Elapsed: 8:07:05.641964 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Added 3 violations, total: 20067
+  Added 1 violations, total: 20068
+  Added 1 violations, total: 20069
+  Added 2 violations, total: 20071
+  Added 1 violations, total: 20072
+  Converged in 10 iterations!
+
+Attempt 4911 | Elapsed: 8:08:01.009534 | Found: 34 new rays
+
+Attempt 4921 | Elapsed: 8:09:04.281966 | Found: 34 new rays
+
+Attempt 4931 | Elapsed: 8:10:05.841849 | Found: 34 new rays
+
+Attempt 4941 | Elapsed: 8:11:09.633365 | Found: 34 new rays
+
+Attempt 4951 | Elapsed: 8:12:01.848417 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 1 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 30 violations, total: 20096
+  Converged in 9 iterations!
+
+Attempt 4961 | Elapsed: 8:12:56.823333 | Found: 34 new rays
+
+Attempt 4971 | Elapsed: 8:13:54.491039 | Found: 34 new rays
+
+Attempt 4981 | Elapsed: 8:14:55.479840 | Found: 34 new rays
+
+Attempt 4991 | Elapsed: 8:16:09.614525 | Found: 34 new rays
+
+Attempt 5001 | Elapsed: 8:17:10.899660 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 30 violations, total: 20064
+  Converged in 5 iterations!
+
+Attempt 5011 | Elapsed: 8:18:09.678457 | Found: 34 new rays
+
+Attempt 5021 | Elapsed: 8:19:12.633901 | Found: 34 new rays
+
+Attempt 5031 | Elapsed: 8:20:13.906275 | Found: 34 new rays
+
+Attempt 5041 | Elapsed: 8:21:18.032188 | Found: 34 new rays
+
+Attempt 5051 | Elapsed: 8:22:15.951160 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 2 violations, total: 20038
+  Added 2 violations, total: 20040
+  Added 1 violations, total: 20041
+  Added 30 violations, total: 20071
+  Converged in 9 iterations!
+
+Attempt 5061 | Elapsed: 8:23:16.235492 | Found: 34 new rays
+
+Attempt 5071 | Elapsed: 8:24:05.761779 | Found: 34 new rays
+
+Attempt 5081 | Elapsed: 8:25:07.893678 | Found: 34 new rays
+
+Attempt 5091 | Elapsed: 8:26:14.719592 | Found: 34 new rays
+
+Attempt 5101 | Elapsed: 8:27:23.582865 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 1 violations, total: 20063
+  Added 30 violations, total: 20093
+  Added 1 violations, total: 20094
+  Added 1 violations, total: 20095
+  Added 1 violations, total: 20096
+  Converged in 9 iterations!
+
+Attempt 5111 | Elapsed: 8:28:27.048935 | Found: 34 new rays
+
+Attempt 5121 | Elapsed: 8:29:28.384446 | Found: 34 new rays
+
+Attempt 5131 | Elapsed: 8:30:22.166963 | Found: 34 new rays
+
+Attempt 5141 | Elapsed: 8:31:20.431026 | Found: 34 new rays
+
+Attempt 5151 | Elapsed: 8:32:22.765386 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 1 violations, total: 20035
+  Added 30 violations, total: 20065
+  Added 30 violations, total: 20095
+  Added 1 violations, total: 20096
+  Converged in 8 iterations!
+
+Attempt 5161 | Elapsed: 8:33:29.612948 | Found: 34 new rays
+
+Attempt 5171 | Elapsed: 8:34:29.649513 | Found: 34 new rays
+
+Attempt 5181 | Elapsed: 8:35:37.117498 | Found: 34 new rays
+
+Attempt 5191 | Elapsed: 8:36:32.282686 | Found: 34 new rays
+
+Attempt 5201 | Elapsed: 8:37:29.014074 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 30 violations, total: 20090
+  Added 1 violations, total: 20091
+  Added 1 violations, total: 20092
+  Added 1 violations, total: 20093
+  Added 1 violations, total: 20094
+  Converged in 8 iterations!
+
+Attempt 5211 | Elapsed: 8:38:26.798085 | Found: 34 new rays
+
+Attempt 5221 | Elapsed: 8:39:23.142217 | Found: 34 new rays
+
+Attempt 5231 | Elapsed: 8:40:18.565872 | Found: 34 new rays
+
+Attempt 5241 | Elapsed: 8:41:16.159013 | Found: 34 new rays
+
+Attempt 5251 | Elapsed: 8:42:18.658942 | Found: 34 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 1 violations, total: 20093
+  Added 30 violations, total: 20123
+  Converged in 7 iterations!
+  ✅ Found new ray #35!
+
+Attempt 5261 | Elapsed: 8:43:19.268960 | Found: 35 new rays
+
+Attempt 5271 | Elapsed: 8:44:20.414891 | Found: 35 new rays
+
+Attempt 5281 | Elapsed: 8:45:15.946143 | Found: 35 new rays
+
+Attempt 5291 | Elapsed: 8:46:19.979679 | Found: 35 new rays
+
+Attempt 5301 | Elapsed: 8:47:21.281962 | Found: 35 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 2 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 30 violations, total: 20122
+  Converged in 6 iterations!
+
+Attempt 5311 | Elapsed: 8:48:21.297552 | Found: 35 new rays
+
+Attempt 5321 | Elapsed: 8:49:29.052953 | Found: 35 new rays
+
+Attempt 5331 | Elapsed: 8:50:38.891833 | Found: 35 new rays
+
+Attempt 5341 | Elapsed: 8:51:43.176168 | Found: 35 new rays
+
+Attempt 5351 | Elapsed: 8:52:43.668437 | Found: 35 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 30 violations, total: 20092
+  Added 1 violations, total: 20093
+  Converged in 6 iterations!
+
+Attempt 5361 | Elapsed: 8:53:39.170557 | Found: 35 new rays
+
+Attempt 5371 | Elapsed: 8:54:45.831848 | Found: 35 new rays
+
+Attempt 5381 | Elapsed: 8:55:50.962005 | Found: 35 new rays
+
+Attempt 5391 | Elapsed: 8:56:56.104958 | Found: 35 new rays
+
+Attempt 5401 | Elapsed: 8:57:54.467859 | Found: 35 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 30 violations, total: 20060
+  Added 30 violations, total: 20090
+  Added 2 violations, total: 20092
+  Added 1 violations, total: 20093
+  Added 1 violations, total: 20094
+  Converged in 7 iterations!
+
+Attempt 5411 | Elapsed: 8:58:48.402396 | Found: 35 new rays
+
+Attempt 5421 | Elapsed: 8:59:45.070608 | Found: 35 new rays
+
+Attempt 5431 | Elapsed: 9:00:50.382848 | Found: 35 new rays
+
+Attempt 5441 | Elapsed: 9:01:58.203646 | Found: 35 new rays
+
+Attempt 5451 | Elapsed: 9:03:10.608006 | Found: 35 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 1 violations, total: 20037
+  Added 1 violations, total: 20038
+  Added 1 violations, total: 20039
+  Added 1 violations, total: 20040
+  Added 1 violations, total: 20041
+  Converged in 10 iterations!
+
+Attempt 5461 | Elapsed: 9:04:10.599775 | Found: 35 new rays
+
+Attempt 5471 | Elapsed: 9:05:14.900834 | Found: 35 new rays
+
+Attempt 5481 | Elapsed: 9:06:18.520787 | Found: 35 new rays
+
+Attempt 5491 | Elapsed: 9:07:13.740660 | Found: 35 new rays
+
+Attempt 5501 | Elapsed: 9:08:06.320529 | Found: 35 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 30 violations, total: 20066
+  Added 30 violations, total: 20096
+  Added 1 violations, total: 20097
+  Added 1 violations, total: 20098
+  Converged in 9 iterations!
+
+Attempt 5511 | Elapsed: 9:09:01.682708 | Found: 35 new rays
+
+Attempt 5521 | Elapsed: 9:09:56.826431 | Found: 35 new rays
+
+Attempt 5531 | Elapsed: 9:11:05.992939 | Found: 35 new rays
+
+Attempt 5541 | Elapsed: 9:12:07.237995 | Found: 35 new rays
+
+Attempt 5551 | Elapsed: 9:13:10.506049 | Found: 35 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 2 violations, total: 20032
+  Added 30 violations, total: 20062
+  Added 2 violations, total: 20064
+  Added 1 violations, total: 20065
+  Added 30 violations, total: 20095
+  Converged in 7 iterations!
+
+Attempt 5561 | Elapsed: 9:14:14.650568 | Found: 35 new rays
+
+Attempt 5571 | Elapsed: 9:15:09.005910 | Found: 35 new rays
+
+Attempt 5581 | Elapsed: 9:16:08.953039 | Found: 35 new rays
+
+Attempt 5591 | Elapsed: 9:16:59.472791 | Found: 35 new rays
+  ✅ Found new ray #36!
+
+Attempt 5601 | Elapsed: 9:18:04.433192 | Found: 36 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 2 violations, total: 20002
+  Added 30 violations, total: 20032
+  Added 2 violations, total: 20034
+  Added 2 violations, total: 20036
+  Added 2 violations, total: 20038
+  Added 2 violations, total: 20040
+  Added 30 violations, total: 20070
+  Converged in 8 iterations!
+  ✅ Found new ray #37!
+
+Attempt 5611 | Elapsed: 9:19:02.031119 | Found: 37 new rays
+
+Attempt 5621 | Elapsed: 9:20:03.748958 | Found: 37 new rays
+
+Attempt 5631 | Elapsed: 9:21:05.588653 | Found: 37 new rays
+  ✅ Found new ray #38!
+
+Attempt 5641 | Elapsed: 9:22:19.391456 | Found: 38 new rays
+
+Attempt 5651 | Elapsed: 9:23:15.481186 | Found: 38 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 3 violations, total: 20033
+  Added 30 violations, total: 20063
+  Added 2 violations, total: 20065
+  Added 1 violations, total: 20066
+  Added 30 violations, total: 20096
+  Added 2 violations, total: 20098
+  Added 2 violations, total: 20100
+  Added 2 violations, total: 20102
+  Converged in 10 iterations!
+
+Attempt 5661 | Elapsed: 9:24:21.240697 | Found: 38 new rays
+
+Attempt 5671 | Elapsed: 9:25:23.479014 | Found: 38 new rays
+
+Attempt 5681 | Elapsed: 9:26:15.939799 | Found: 38 new rays
+
+Attempt 5691 | Elapsed: 9:27:12.279076 | Found: 38 new rays
+
+Attempt 5701 | Elapsed: 9:28:16.076438 | Found: 38 new rays
+  Using subset size: 20,000 constraints
+  Iteration 0: 20000 active constraints
+  Added 30 violations, total: 20030
+  Added 1 violations, total: 20031
+  Added 2 violations, total: 20033
+  Added 30 violations, total: 20063
+  Added 30 violations, total: 20093
+  Added 1 violations, total: 20094
+  Added 1 violations, total: 20095
+  Added 1 violations, total: 20096
+  Added 30 violations, total: 20126
+  Added 1 violations, total: 20127
+  Iteration 10: 20127 active constraints
+  Converged in 11 iterations!
+
+Attempt 5711 | Elapsed: 9:29:12.877958 | Found: 38 new rays
+
+============================================================
+Completed 5717 attempts in 9:29:55.399907
+Found 38 unique new rays
+Results saved in: /resnick/groups/OoguriGroup/jaeha/lrslib-entropycone/lp_ray_finder/results/ray_results_large_10000_mixed_20250805_161441
+Job completed at: Wed Aug  6 01:47:45 AM PDT 2025

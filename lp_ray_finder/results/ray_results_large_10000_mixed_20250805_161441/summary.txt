@@ -1,22 +1,22 @@
 Ray Discovery Summary - LARGE SUBSET (10,000)
 ============================================================
-Runtime: 1:23:54.149461
-Attempts: 900
-Unique new rays: 22
-Session rays (including duplicates): 22
+Runtime: 9:29:07.011590
+Attempts: 5710
+Unique new rays: 38
+Session rays (including duplicates): 38
 
 Last 50 attempts:
   Success rate: 50/50 = 100%
   Hit max iterations: 0/50
 
 Most rediscovered rays:
-  session_4: found 56 times
-  session_19: found 52 times
-  session_1: found 50 times
-  session_12: found 49 times
-  session_20: found 49 times
-  session_8: found 44 times
-  session_11: found 44 times
-  session_5: found 43 times
-  session_9: found 43 times
-  known_1: found 42 times
+  session_14: found 298 times
+  session_20: found 286 times
+  session_19: found 286 times
+  session_9: found 281 times
+  session_5: found 280 times
+  known_1: found 278 times
+  session_11: found 277 times
+  session_16: found 275 times
+  session_3: found 272 times
+  session_17: found 272 times
